@@ -1,0 +1,114 @@
+table {
+  border-collapse: separate;
+  border-spacing: 20px 0;
+  margin: 15px -20px 0 -20px;
+}
+
+table *:not(span) {
+  border: 1px solid black;
+}
+
+table tr th:first-child,
+#total tr td:first-child {
+  font-size: 1.2em;
+}
+
+.frozen{
+  background: rgba(255, 0, 0, 0.432);
+}
+
+table tr td:first-child {
+  width: 200px;
+  text-align: right;
+}
+
+table tr td:last-child {
+  width: 40px;
+  text-align: center;
+}
+
+.ttl {
+  background-color: rgba(203, 203, 203, 0.505);
+}
+
+span,
+.ttlTxt {
+  font-weight: bold;
+}
+
+#inf tr td:first-child::before,
+#inf tr td:first-child::after {
+  content: " ";
+  width: 100%;
+  order: 1;
+}
+
+#inf tr td:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* background: rgb(0, 162, 5); */
+  /* background: radial-gradient(circle, rgba(0, 162, 5, 0.37608546836703427) 0%, rgba(0, 162, 5, 1) 100%); */
+}
+
+#des {
+  margin: 15px;
+  height: fit-content;
+}
+
+#scores,
+body {
+  height: fit-content;
+  width: fit-content;
+}
+
+#des > *:not(:first-child) {
+  height: 74px;
+  width: 505px;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#scores > table tr {
+  background-color: rgba(128, 128, 128, 0.21);
+}
+
+button {
+  font-size: 50px;
+}
+
+img {
+    animation-name:            rotate; 
+    animation-duration:        0.5s; 
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(720deg);
+    }
+  }
+
+  button{
+    background-color: rgb(71, 150, 73);
+  }
+  
+  #scores{
+    background-color: rgb(198, 198, 198);
+    padding: 10px 15px;
+  }

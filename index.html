@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="des">
+        <button>Lancer</button>
+        <button onClick="window.location.reload();" style="font-size:25px; height:auto;width:auto;">Nouvelle partie</button>
+        <div id="changeants"></div>
+        <div id="fixes"></div>
+    </div>
+    <div id="scores">
+        <table id="sup">
+            <tr>
+                <th>Section supérieure</th>
+                <th>Jeu</th>
+            </tr>
+            <tr>
+                <td>Total des 1</td>
+                <td id="res1">0</td>
+            </tr>
+            <tr>
+                <td>Total des 2</td>
+                <td id="res2">0</td>
+            </tr>
+            <tr>
+                <td>Total des 3</td>
+                <td id="res3">0</td>
+            </tr>
+            <tr>
+                <td>Total des 4</td>
+                <td id="res4">0</td>
+            </tr>
+            <tr>
+                <td>Total des 5</td>
+                <td id="res5">0</td>
+            </tr>
+            <tr>
+                <td>Total des 6</td>
+                <td id="res6">0</td>
+            </tr>
+            <tr>
+                <td class="ttlTxt">Total</td>
+                <td class="ttl" id="resSup1">0</td>
+            </tr>
+            <tr>
+                <td class="ttlTxt">63+ <span class="info"> Prime des 35 points</span></td>
+                <td class="ttl" id="resSurBon">0</td>
+            </tr>
+            <tr>
+                <td class="ttlTxt">Total de la section supérieure</td>
+                <td class="ttl" id="resSup">0</td>
+            </tr>
+        </table>
+
+        <table id="inf">
+            <tr>
+                <th>Section inférieure</th>
+                <th>Jeu</th>
+            </tr>
+            <tr>
+                <td>Brelan <span class="info">Total des 5 dés</span></td>
+                <td id="resBre">0</td>
+            </tr>
+            <tr>
+                <td>Carré <span class="info">Total des 5 dés</span></td>
+                <td id="resCar">0</td>
+            </tr>
+            <tr>
+                <td>Full <span class="info">25 points</span></td>
+                <td id="resFul">0</td>
+            </tr>
+            <tr>
+                <td>Petite suite <span class="info">30 points</span></td>
+                <td id="resSui1">0</td>
+            </tr>
+            <tr>
+                <td>Grande suite <span class="info">40 points</span></td>
+                <td id="resSui2">0</td>
+            </tr>
+            <tr>
+                <td>Yahtzee <span class="info">50 points</span></td>
+                <td id="resYah">0</td>
+            </tr>
+            <tr>
+                <td>Chance <span class="info">Total des 5 dés</span></td>
+                <td id="resCha">0</td>
+            </tr>
+            <tr>
+                <td>Prime Yahtzee <span class="info">100 points</span></td>
+                <td class="ttlPri" id="res">0</td>
+            </tr>
+            <tr>
+                <td class="ttlTxt">Total de la section inférieure</td>
+                <td class="ttl" id="resInf">0</td>
+            </tr>
+        </table>
+
+        <table id="total">
+            <tr>
+                <td class="ttlTxt">Total Général</td>
+                <td class="ttl" id="resTot">0</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="index.js"></script>
+<script>
+
+</script>
+</html>
